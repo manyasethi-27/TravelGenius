@@ -1,7 +1,7 @@
 import { useState, FormEvent } from 'react';
-import { Trip, Poll, User } from '../../../types';
+import { Trip, Poll, User } from '../../types';
 import { Plus, CheckSquare, Trash2, PieChart } from 'lucide-react';
-import { generateId, cn } from '../../../lib/utils';
+import { generateId, cn } from '../../lib/utils';
 import { motion, AnimatePresence } from 'motion/react';
 
 interface PollTabProps {
